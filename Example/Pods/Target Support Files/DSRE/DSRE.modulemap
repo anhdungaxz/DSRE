@@ -1,0 +1,6 @@
+framework module DSRE {
+  umbrella header "DSRE-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "DSRE",
+  "version": "0.1.0",
+  "summary": "A short description of DSRE.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anhdungaxz/DSRE",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anhdungaxz": "dungpt.hust@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/anhdungaxz/DSRE.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DSRE/Classes/**/*"
+}
