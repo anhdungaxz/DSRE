@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import DSRE_SDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let a = DSRE.share.add(a: 1, b: 1)
+        print(a)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

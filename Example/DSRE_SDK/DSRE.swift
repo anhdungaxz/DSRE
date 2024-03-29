@@ -8,8 +8,9 @@
 
 import Foundation
 
-public final class SwiftyLib {
-
+public class DSRE {
+    public static let share = DSRE()
+    
     let name = "SwiftyLib"
     
     public func add(a: Int, b: Int) -> Int {
