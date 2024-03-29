@@ -15,7 +15,7 @@
 		97E2E6E2B98DF871A6C04A77B3043A99 /* Pods-DSRE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1635E530CE2D4EE08FB048057B51D9 /* Pods-DSRE_Example-dummy.m */; };
 		AC003400957AD7A2B825CF73766A54A9 /* Pods-DSRE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 041700AEEC5C9F53B66745D384F96B8D /* Pods-DSRE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE071B8EB893D3583B547C34AFD8A6DD /* DSRE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE6354ECF4B70EF64ED480252A7ECA /* DSRE-dummy.m */; };
-		F1944B47A1C2E1F32E1FE6512E9D14BA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D098ADC7DD5BE10064A64FE8A71826D7 /* ReplaceMe.swift */; };
+		F1944B47A1C2E1F32E1FE6512E9D14BA /* DSRE.swift in Sources */ = {isa = PBXBuildFile; fileRef = D098ADC7DD5BE10064A64FE8A71826D7 /* DSRE.swift */; };
 		FD4DDA320C11BB51927508AFCD9390E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,7 @@
 		4A1635E530CE2D4EE08FB048057B51D9 /* Pods-DSRE_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSRE_Example-dummy.m"; sourceTree = "<group>"; };
 		54EE6354ECF4B70EF64ED480252A7ECA /* DSRE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSRE-dummy.m"; sourceTree = "<group>"; };
 		5D499055F99F78945BF11A6FD16C60CE /* DSRE-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DSRE-Info.plist"; sourceTree = "<group>"; };
-		6072E6D07269A4E1B5D3FF791DE7C5D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6072E6D07269A4E1B5D3FF791DE7C5D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		617E2AE14466A0399F4495976BB128D4 /* Pods-DSRE_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSRE_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		658EEAB0EED796B6810AA0925DD44CDC /* Pods-DSRE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSRE_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,21 +55,21 @@
 		7D8F3A438E536C51042F9273FC14E35B /* Pods-DSRE_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSRE_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8172DE39F6C73328D7CDF1E0624A667F /* Pods-DSRE_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSRE_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C45790C12E5E1B52D10CF2BAE1CFC74 /* Pods-DSRE_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSRE_Example-Info.plist"; sourceTree = "<group>"; };
-		8DE5B44854AC7518100BBA8FD99E0CED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8DE5B44854AC7518100BBA8FD99E0CED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8E7EE17B91F98327B562FFDB0783AC97 /* Pods-DSRE_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSRE_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8E8A17D14A8ED855229ECE2AB92B1643 /* Pods-DSRE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSRE_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8F64C1F29856707E8374FCB3C6E582CE /* DSRE */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSRE; path = DSRE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		923D3B52960A34FB8E75EB130D63EFD5 /* Pods-DSRE_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DSRE_Example"; path = Pods_DSRE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98686707D9B45E0A77E0F708DA77FDAC /* DSRE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSRE.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5F5B18CC0F990E1E81FBD3EAB0FBEE /* Pods-DSRE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSRE_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A00439D8C4092EF4EB26C03AEA92D099 /* DSRE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSRE-umbrella.h"; sourceTree = "<group>"; };
 		A27356739E142F95A064E7EB774CEE89 /* Pods-DSRE_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSRE_Tests-dummy.m"; sourceTree = "<group>"; };
 		A6FBC05BF37276F9E1B7D03BB8A3AD3F /* Pods-DSRE_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSRE_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CDE8E1247C69A0FDD80AFE0F5A63A66E /* DSRE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSRE.modulemap; sourceTree = "<group>"; };
-		D098ADC7DD5BE10064A64FE8A71826D7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DSRE/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D098ADC7DD5BE10064A64FE8A71826D7 /* DSRE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSRE.swift; path = DSRE/Classes/DSRE.swift; sourceTree = "<group>"; };
 		E0B4888EF6B5D021FD6F711C4AF9FD4C /* Pods-DSRE_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DSRE_Tests"; path = Pods_DSRE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F57C992FE18E4E6524BAD393868BBFD5 /* DSRE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DSRE.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F57C992FE18E4E6524BAD393868BBFD5 /* DSRE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DSRE.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,7 @@
 		30165D3F7C59E7615CB2285CD450E832 /* DSRE */ = {
 			isa = PBXGroup;
 			children = (
-				D098ADC7DD5BE10064A64FE8A71826D7 /* ReplaceMe.swift */,
+				D098ADC7DD5BE10064A64FE8A71826D7 /* DSRE.swift */,
 				37A644B7BB45680C7596D65B9994928D /* Pod */,
 				6729267034325AA904C033965C25F680 /* Support Files */,
 			);
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE071B8EB893D3583B547C34AFD8A6DD /* DSRE-dummy.m in Sources */,
-				F1944B47A1C2E1F32E1FE6512E9D14BA /* ReplaceMe.swift in Sources */,
+				F1944B47A1C2E1F32E1FE6512E9D14BA /* DSRE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,8 +526,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

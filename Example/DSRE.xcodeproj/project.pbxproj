@@ -15,11 +15,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		88E9143AC7F005A72D1C9ADA /* Pods_DSRE_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453F88713468C71C56C4E74A /* Pods_DSRE_Tests.framework */; };
-		AC521EC92BB6AE7000F9E412 /* DSRE_SDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = AC521EC82BB6AE7000F9E412 /* DSRE_SDK.docc */; };
-		AC521ECA2BB6AE7000F9E412 /* DSRE_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = AC521EC72BB6AE7000F9E412 /* DSRE_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC521ECD2BB6AE7000F9E412 /* DSRE_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC521EC52BB6AE7000F9E412 /* DSRE_SDK.framework */; };
-		AC521ECE2BB6AE7000F9E412 /* DSRE_SDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC521EC52BB6AE7000F9E412 /* DSRE_SDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AC521ED42BB6B37B00F9E412 /* DSRE.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC521ED32BB6B37B00F9E412 /* DSRE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +25,6 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = DSRE;
 		};
-		AC521ECB2BB6AE7000F9E412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC521EC42BB6AE7000F9E412;
-			remoteInfo = DSRE_SDK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AC521ECE2BB6AE7000F9E412 /* DSRE_SDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,10 +58,6 @@
 		6A1D3A4BE24AFB4E3F1A136B /* Pods-DSRE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Tests.release.xcconfig"; path = "Target Support Files/Pods-DSRE_Tests/Pods-DSRE_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		835374DE9880FDD94FB3A8A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A43CCA059150EBDDA5352FF1 /* Pods-DSRE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Example.release.xcconfig"; path = "Target Support Files/Pods-DSRE_Example/Pods-DSRE_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AC521EC52BB6AE7000F9E412 /* DSRE_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSRE_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC521EC72BB6AE7000F9E412 /* DSRE_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSRE_SDK.h; sourceTree = "<group>"; };
-		AC521EC82BB6AE7000F9E412 /* DSRE_SDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DSRE_SDK.docc; sourceTree = "<group>"; };
-		AC521ED32BB6B37B00F9E412 /* DSRE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRE.swift; sourceTree = "<group>"; };
 		C0BCFC09050A4621313246F4 /* Pods-DSRE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DSRE_Tests/Pods-DSRE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F30C177CBA4A67B8F49BF9BA /* Pods_DSRE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSRE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4415D65E4B494D6F0EC5EF21 /* Pods_DSRE_Example.framework in Frameworks */,
-				AC521ECD2BB6AE7000F9E412 /* DSRE_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,13 +76,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E9143AC7F005A72D1C9ADA /* Pods_DSRE_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC521EC22BB6AE7000F9E412 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +99,6 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DSRE */,
 				607FACE81AFB9204008FA782 /* Tests */,
-				AC521EC62BB6AE7000F9E412 /* DSRE_SDK */,
 				607FACD11AFB9204008FA782 /* Products */,
 				2CD67865DDA13B9955724C50 /* Pods */,
 				F7FA150994399FF9F23D049F /* Frameworks */,
@@ -136,7 +110,6 @@
 			children = (
 				607FACD01AFB9204008FA782 /* DSRE_Example.app */,
 				607FACE51AFB9204008FA782 /* DSRE_Tests.xctest */,
-				AC521EC52BB6AE7000F9E412 /* DSRE_SDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,16 +163,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		AC521EC62BB6AE7000F9E412 /* DSRE_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				AC521EC72BB6AE7000F9E412 /* DSRE_SDK.h */,
-				AC521EC82BB6AE7000F9E412 /* DSRE_SDK.docc */,
-				AC521ED32BB6B37B00F9E412 /* DSRE.swift */,
-			);
-			path = DSRE_SDK;
-			sourceTree = "<group>";
-		};
 		F7FA150994399FF9F23D049F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,17 +173,6 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		AC521EC02BB6AE7000F9E412 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC521ECA2BB6AE7000F9E412 /* DSRE_SDK.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		607FACCF1AFB9204008FA782 /* DSRE_Example */ = {
@@ -237,7 +189,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				AC521ECC2BB6AE7000F9E412 /* PBXTargetDependency */,
 			);
 			name = DSRE_Example;
 			productName = DSRE;
@@ -263,24 +214,6 @@
 			productReference = 607FACE51AFB9204008FA782 /* DSRE_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AC521EC42BB6AE7000F9E412 /* DSRE_SDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC521ED22BB6AE7000F9E412 /* Build configuration list for PBXNativeTarget "DSRE_SDK" */;
-			buildPhases = (
-				AC521EC02BB6AE7000F9E412 /* Headers */,
-				AC521EC12BB6AE7000F9E412 /* Sources */,
-				AC521EC22BB6AE7000F9E412 /* Frameworks */,
-				AC521EC32BB6AE7000F9E412 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DSRE_SDK;
-			productName = DSRE_SDK;
-			productReference = AC521EC52BB6AE7000F9E412 /* DSRE_SDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -300,10 +233,6 @@
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
-					AC521EC42BB6AE7000F9E412 = {
-						CreatedOnToolsVersion = 15.2;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "DSRE" */;
@@ -322,7 +251,6 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* DSRE_Example */,
 				607FACE41AFB9204008FA782 /* DSRE_Tests */,
-				AC521EC42BB6AE7000F9E412 /* DSRE_SDK */,
 			);
 		};
 /* End PBXProject section */
@@ -339,13 +267,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC521EC32BB6AE7000F9E412 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,15 +358,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC521EC12BB6AE7000F9E412 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC521EC92BB6AE7000F9E412 /* DSRE_SDK.docc in Sources */,
-				AC521ED42BB6B37B00F9E412 /* DSRE.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -453,11 +365,6 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* DSRE_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-		AC521ECC2BB6AE7000F9E412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC521EC42BB6AE7000F9E412 /* DSRE_SDK */;
-			targetProxy = AC521ECB2BB6AE7000F9E412 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -584,7 +491,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69170121F703AB26A4CF6147 /* Pods-DSRE_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DSRE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -601,7 +507,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A43CCA059150EBDDA5352FF1 /* Pods-DSRE_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DSRE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -654,95 +559,6 @@
 			};
 			name = Release;
 		};
-		AC521ED02BB6AE7000F9E412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 CocoaPods. All rights reserved.";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vnpt.DSRE-SDK";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AC521ED12BB6AE7000F9E412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 CocoaPods. All rights reserved.";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vnpt.DSRE-SDK";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -769,15 +585,6 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC521ED22BB6AE7000F9E412 /* Build configuration list for PBXNativeTarget "DSRE_SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC521ED02BB6AE7000F9E412 /* Debug */,
-				AC521ED12BB6AE7000F9E412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

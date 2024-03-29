@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import DSRE_SDK
+import DSRE
 
 class ViewController: UIViewController {
 
