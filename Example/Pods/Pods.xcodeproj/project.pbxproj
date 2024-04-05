@@ -14,6 +14,10 @@
 		6CDBCABE7413BFA1FE69C3B7F883CC09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		97E2E6E2B98DF871A6C04A77B3043A99 /* Pods-DSRE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1635E530CE2D4EE08FB048057B51D9 /* Pods-DSRE_Example-dummy.m */; };
 		AC003400957AD7A2B825CF73766A54A9 /* Pods-DSRE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 041700AEEC5C9F53B66745D384F96B8D /* Pods-DSRE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC02753C2BBFAEA800C9639A /* DSREMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02753B2BBFAEA800C9639A /* DSREMasterApp.swift */; };
+		ACDEDBF02BBB9F460017E50B /* DSREDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEDBEF2BBB9F460017E50B /* DSREDelegate.swift */; };
+		ACE219832BBAA8AB00A8059C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE219812BBAA8AB00A8059C /* LoginViewController.swift */; };
+		ACE219842BBAA8AB00A8059C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE219822BBAA8AB00A8059C /* LoginViewController.xib */; };
 		AE071B8EB893D3583B547C34AFD8A6DD /* DSRE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE6354ECF4B70EF64ED480252A7ECA /* DSRE-dummy.m */; };
 		F1944B47A1C2E1F32E1FE6512E9D14BA /* DSRE.swift in Sources */ = {isa = PBXBuildFile; fileRef = D098ADC7DD5BE10064A64FE8A71826D7 /* DSRE.swift */; };
 		FD4DDA320C11BB51927508AFCD9390E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -66,6 +70,10 @@
 		A00439D8C4092EF4EB26C03AEA92D099 /* DSRE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSRE-umbrella.h"; sourceTree = "<group>"; };
 		A27356739E142F95A064E7EB774CEE89 /* Pods-DSRE_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSRE_Tests-dummy.m"; sourceTree = "<group>"; };
 		A6FBC05BF37276F9E1B7D03BB8A3AD3F /* Pods-DSRE_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSRE_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC02753B2BBFAEA800C9639A /* DSREMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSREMasterApp.swift; sourceTree = "<group>"; };
+		ACDEDBEF2BBB9F460017E50B /* DSREDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSREDelegate.swift; sourceTree = "<group>"; };
+		ACE219812BBAA8AB00A8059C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACE219822BBAA8AB00A8059C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		CDE8E1247C69A0FDD80AFE0F5A63A66E /* DSRE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSRE.modulemap; sourceTree = "<group>"; };
 		D098ADC7DD5BE10064A64FE8A71826D7 /* DSRE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSRE.swift; path = DSRE/Classes/DSRE.swift; sourceTree = "<group>"; };
 		E0B4888EF6B5D021FD6F711C4AF9FD4C /* Pods-DSRE_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DSRE_Tests"; path = Pods_DSRE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,8 +128,12 @@
 			isa = PBXGroup;
 			children = (
 				D098ADC7DD5BE10064A64FE8A71826D7 /* DSRE.swift */,
+				ACDEDBEF2BBB9F460017E50B /* DSREDelegate.swift */,
+				ACE219812BBAA8AB00A8059C /* LoginViewController.swift */,
+				ACE219822BBAA8AB00A8059C /* LoginViewController.xib */,
 				37A644B7BB45680C7596D65B9994928D /* Pod */,
 				6729267034325AA904C033965C25F680 /* Support Files */,
+				AC02753B2BBFAEA800C9639A /* DSREMasterApp.swift */,
 			);
 			name = DSRE;
 			path = ../..;
@@ -357,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE219842BBAA8AB00A8059C /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE219832BBAA8AB00A8059C /* LoginViewController.swift in Sources */,
 				AE071B8EB893D3583B547C34AFD8A6DD /* DSRE-dummy.m in Sources */,
+				ACDEDBF02BBB9F460017E50B /* DSREDelegate.swift in Sources */,
+				AC02753C2BBFAEA800C9639A /* DSREMasterApp.swift in Sources */,
 				F1944B47A1C2E1F32E1FE6512E9D14BA /* DSRE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
