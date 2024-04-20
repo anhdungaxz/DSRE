@@ -18,8 +18,9 @@ class TestViewController: UIViewController {
     }
 
     @IBAction func actionLogin(_ sender: Any) {
-        self.present(DSRE.share.getLoginController(delegate: self), animated: true)
-        DSREMasterApp
+//        self.present(DSRE.share.getLoginController(delegate: self), animated: true)
+//        DSREMasterApp
+        DSRE.share.loginByMasterApp()
     }
     
     /*

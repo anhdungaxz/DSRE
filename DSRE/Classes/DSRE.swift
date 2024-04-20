@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import Alamofire
 
 public class DSRE {
     public static let share = DSRE()
@@ -22,16 +22,11 @@ public class DSRE {
         self.clientId = clientId
     }
     
-    public func getLoginController(delegate: DSREDelegate) -> UINavigationController {
-        let navi = UINavigationController(rootViewController: LoginViewController(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self)))
-        navi.isNavigationBarHidden = true
-        navi.modalPresentationStyle = .fullScreen
-        self.delegate = delegate
-        return navi
-    }
     
     public func loginByMasterApp() {
-        
+        DSRENetwork.post(url: "google.com", parameters: nil) { response in
+            
+        }
     }
     
 }
