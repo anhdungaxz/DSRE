@@ -1,8 +1,8 @@
 {
   "name": "DSRE",
-  "version": "0.1.0",
-  "summary": "A short description of DSRE.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.3",
+  "summary": "DSRE VNPT",
+  "description": "DSRE is a SDK from VNPT",
   "homepage": "https://github.com/anhdungaxz/DSRE",
   "license": {
     "type": "MIT",
@@ -13,10 +13,17 @@
   },
   "source": {
     "git": "https://github.com/anhdungaxz/DSRE.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "DSRE/Classes/**/*"
+  "source_files": "DSRE/Classes/**/*",
+  "swift_versions": "4.2",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.0"
+    ]
+  },
+  "swift_version": "4.2"
 }
