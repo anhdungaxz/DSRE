@@ -4,10 +4,6 @@ platform :ios, '10.0'
 
 target 'DSRE_Example' do
   pod 'DSRE', :path => '../'
-
-  target 'DSRE_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
+  pod 'Alamofire', '~> 5.0'
 end
