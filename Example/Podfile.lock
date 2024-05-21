@@ -1,15 +1,28 @@
 PODS:
   - Alamofire (5.6.4)
-  - DSRE (0.1.3):
+  - DSRE (0.1.6):
     - Alamofire (~> 5.0)
+    - ReachabilitySwift
+  - IQKeyboardManagerSwift (6.5.11)
+  - ReachabilitySwift (5.0.0)
+  - SnapKit (5.6.0)
+  - SwifterSwift/UIKit (5.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0)
   - DSRE (from `../`)
+  - IQKeyboardManagerSwift
+  - ReachabilitySwift
+  - SnapKit
+  - SwifterSwift/UIKit
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - IQKeyboardManagerSwift
+    - ReachabilitySwift
+    - SnapKit
+    - SwifterSwift
 
 EXTERNAL SOURCES:
   DSRE:
@@ -17,8 +30,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
-  DSRE: 63f8a961db16eb0f71ff504fef408c8f2c403104
+  DSRE: 52a8366d0d3d145f7bfbe21113fcfb6a80dece7e
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
 
-PODFILE CHECKSUM: 3ea3e2ca31dbe74c883adedecbce3fb9a3852b50
+PODFILE CHECKSUM: 4964d8396a0a2cda29aebdc55d2baa3e3ffe4954
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.15.2

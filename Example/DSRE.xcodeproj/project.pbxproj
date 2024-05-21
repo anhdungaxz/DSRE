@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,8 +12,31 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		AC1732532BBE97C400093534 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1732512BBE97C400093534 /* TestViewController.swift */; };
-		AC1732542BBE97C400093534 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1732522BBE97C400093534 /* TestViewController.xib */; };
+		A6463DAB0FD0EF5667866531 /* Pods_DSRE_Example_Child.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B922C7A066BA41DDF0B9ABC6 /* Pods_DSRE_Example_Child.framework */; };
+		ACED4AFF2BF9E8AD003F44FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED4AFD2BF9E8AD003F44FD /* HomeViewController.swift */; };
+		ACED4B002BF9E8AD003F44FD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACED4AFE2BF9E8AD003F44FD /* HomeViewController.xib */; };
+		ACED4B022BF9E94A003F44FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED4B012BF9E94A003F44FD /* HomeViewController.swift */; };
+		ACED4B042BF9E95B003F44FD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACED4B032BF9E95B003F44FD /* HomeViewController.xib */; };
+		ACED4B092BF9F425003F44FD /* CleverTapSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACED4B062BF9F3FB003F44FD /* CleverTapSDK.xcframework */; };
+		ACED4B0A2BF9F425003F44FD /* CleverTapSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACED4B062BF9F3FB003F44FD /* CleverTapSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACEE36612BE72D6500E51129 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE365F2BE72D6500E51129 /* LoginViewController.swift */; };
+		ACEE36622BE72D6500E51129 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEE36602BE72D6500E51129 /* LoginViewController.xib */; };
+		ACEE36652BE738BA00E51129 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE36632BE738BA00E51129 /* OTPViewController.swift */; };
+		ACEE36662BE738BA00E51129 /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEE36642BE738BA00E51129 /* OTPViewController.xib */; };
+		ACEE366A2BE73C8E00E51129 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE36692BE73C8E00E51129 /* StringExtension.swift */; };
+		ACEE367A2BE77BFE00E51129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE36792BE77BFE00E51129 /* AppDelegate.swift */; };
+		ACEE367E2BE77BFE00E51129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE367D2BE77BFE00E51129 /* ViewController.swift */; };
+		ACEE36812BE77BFE00E51129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE367F2BE77BFE00E51129 /* Main.storyboard */; };
+		ACEE36832BE77C0000E51129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEE36822BE77C0000E51129 /* Assets.xcassets */; };
+		ACEE36862BE77C0000E51129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE36842BE77C0000E51129 /* LaunchScreen.storyboard */; };
+		ACEE368D2BE77CB500E51129 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE368B2BE77CB500E51129 /* LoginViewController.swift */; };
+		ACEE368E2BE77CB500E51129 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEE368C2BE77CB500E51129 /* LoginViewController.xib */; };
+		ACEE36922BE77F9100E51129 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE36902BE77F9100E51129 /* ToastView.swift */; };
+		ACEE36932BE77F9100E51129 /* ToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEE36912BE77F9100E51129 /* ToastView.xib */; };
+		ACEE36942BE77F9A00E51129 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE36902BE77F9100E51129 /* ToastView.swift */; };
+		ACEE36952BE77FA600E51129 /* ToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEE36912BE77F9100E51129 /* ToastView.xib */; };
+		ACEE36982BE7820900E51129 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE36972BE7820900E51129 /* NibLoadable.swift */; };
+		ACEE36992BE7820C00E51129 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE36972BE7820900E51129 /* NibLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				ACED4B0A2BF9F425003F44FD /* CleverTapSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,9 +65,32 @@
 		69170121F703AB26A4CF6147 /* Pods-DSRE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Example.debug.xcconfig"; path = "Target Support Files/Pods-DSRE_Example/Pods-DSRE_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		835374DE9880FDD94FB3A8A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A43CCA059150EBDDA5352FF1 /* Pods-DSRE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Example.release.xcconfig"; path = "Target Support Files/Pods-DSRE_Example/Pods-DSRE_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AC1732512BBE97C400093534 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		AC1732522BBE97C400093534 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		A84BDC84226F053DAE71176C /* Pods-DSRE_Example_Child.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Example_Child.release.xcconfig"; path = "Target Support Files/Pods-DSRE_Example_Child/Pods-DSRE_Example_Child.release.xcconfig"; sourceTree = "<group>"; };
+		ACED4AFD2BF9E8AD003F44FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ACED4AFE2BF9E8AD003F44FD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		ACED4B012BF9E94A003F44FD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = DSRE_Example_Child/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		ACED4B032BF9E95B003F44FD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = DSRE_Example_Child/HomeViewController.xib; sourceTree = SOURCE_ROOT; };
+		ACED4B062BF9F3FB003F44FD /* CleverTapSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CleverTapSDK.xcframework; sourceTree = "<group>"; };
+		ACEE365F2BE72D6500E51129 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACEE36602BE72D6500E51129 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		ACEE36632BE738BA00E51129 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		ACEE36642BE738BA00E51129 /* OTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
+		ACEE36692BE73C8E00E51129 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		ACEE36772BE77BFE00E51129 /* DSRE_Example_Child.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSRE_Example_Child.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEE36792BE77BFE00E51129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACEE367D2BE77BFE00E51129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACEE36802BE77BFE00E51129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACEE36822BE77C0000E51129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACEE36852BE77C0000E51129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACEE36872BE77C0000E51129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEE368B2BE77CB500E51129 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACEE368C2BE77CB500E51129 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		ACEE36902BE77F9100E51129 /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		ACEE36912BE77F9100E51129 /* ToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToastView.xib; sourceTree = "<group>"; };
+		ACEE36972BE7820900E51129 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		B922C7A066BA41DDF0B9ABC6 /* Pods_DSRE_Example_Child.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSRE_Example_Child.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30C177CBA4A67B8F49BF9BA /* Pods_DSRE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSRE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9C8CD714081FBF4D31342D /* Pods-DSRE_Example_Child.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Example_Child.debug.xcconfig"; path = "Target Support Files/Pods-DSRE_Example_Child/Pods-DSRE_Example_Child.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +99,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4415D65E4B494D6F0EC5EF21 /* Pods_DSRE_Example.framework in Frameworks */,
+				ACED4B092BF9F425003F44FD /* CleverTapSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEE36742BE77BFE00E51129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6463DAB0FD0EF5667866531 /* Pods_DSRE_Example_Child.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +119,8 @@
 			children = (
 				69170121F703AB26A4CF6147 /* Pods-DSRE_Example.debug.xcconfig */,
 				A43CCA059150EBDDA5352FF1 /* Pods-DSRE_Example.release.xcconfig */,
+				FB9C8CD714081FBF4D31342D /* Pods-DSRE_Example_Child.debug.xcconfig */,
+				A84BDC84226F053DAE71176C /* Pods-DSRE_Example_Child.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -72,6 +130,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DSRE */,
+				ACEE36782BE77BFE00E51129 /* DSRE_Example_Child */,
 				607FACD11AFB9204008FA782 /* Products */,
 				2CD67865DDA13B9955724C50 /* Pods */,
 				F7FA150994399FF9F23D049F /* Frameworks */,
@@ -82,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* DSRE_Example.app */,
+				ACEE36772BE77BFE00E51129 /* DSRE_Example_Child.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,13 +149,21 @@
 		607FACD21AFB9204008FA782 /* Example for DSRE */ = {
 			isa = PBXGroup;
 			children = (
+				ACED4B052BF9F3FB003F44FD /* Lib */,
+				ACEE36962BE7820900E51129 /* Common */,
+				ACEE368F2BE77F9100E51129 /* ToastView */,
+				ACEE36692BE73C8E00E51129 /* StringExtension.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				AC1732512BBE97C400093534 /* TestViewController.swift */,
-				AC1732522BBE97C400093534 /* TestViewController.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				ACEE365F2BE72D6500E51129 /* LoginViewController.swift */,
+				ACEE36602BE72D6500E51129 /* LoginViewController.xib */,
+				ACEE36632BE738BA00E51129 /* OTPViewController.swift */,
+				ACEE36642BE738BA00E51129 /* OTPViewController.xib */,
+				ACED4AFD2BF9E8AD003F44FD /* HomeViewController.swift */,
+				ACED4AFE2BF9E8AD003F44FD /* HomeViewController.xib */,
 			);
 			name = "Example for DSRE";
 			path = DSRE;
@@ -119,10 +187,53 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		ACED4B052BF9F3FB003F44FD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				ACED4B062BF9F3FB003F44FD /* CleverTapSDK.xcframework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		ACEE36782BE77BFE00E51129 /* DSRE_Example_Child */ = {
+			isa = PBXGroup;
+			children = (
+				ACED4B012BF9E94A003F44FD /* HomeViewController.swift */,
+				ACED4B032BF9E95B003F44FD /* HomeViewController.xib */,
+				ACEE368B2BE77CB500E51129 /* LoginViewController.swift */,
+				ACEE368C2BE77CB500E51129 /* LoginViewController.xib */,
+				ACEE36792BE77BFE00E51129 /* AppDelegate.swift */,
+				ACEE367D2BE77BFE00E51129 /* ViewController.swift */,
+				ACEE367F2BE77BFE00E51129 /* Main.storyboard */,
+				ACEE36822BE77C0000E51129 /* Assets.xcassets */,
+				ACEE36842BE77C0000E51129 /* LaunchScreen.storyboard */,
+				ACEE36872BE77C0000E51129 /* Info.plist */,
+			);
+			path = DSRE_Example_Child;
+			sourceTree = "<group>";
+		};
+		ACEE368F2BE77F9100E51129 /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				ACEE36902BE77F9100E51129 /* ToastView.swift */,
+				ACEE36912BE77F9100E51129 /* ToastView.xib */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		ACEE36962BE7820900E51129 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ACEE36972BE7820900E51129 /* NibLoadable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		F7FA150994399FF9F23D049F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F30C177CBA4A67B8F49BF9BA /* Pods_DSRE_Example.framework */,
+				B922C7A066BA41DDF0B9ABC6 /* Pods_DSRE_Example_Child.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,19 +261,42 @@
 			productReference = 607FACD01AFB9204008FA782 /* DSRE_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ACEE36762BE77BFE00E51129 /* DSRE_Example_Child */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEE368A2BE77C0000E51129 /* Build configuration list for PBXNativeTarget "DSRE_Example_Child" */;
+			buildPhases = (
+				4C5DDD20D6C73AC8ADE39CF5 /* [CP] Check Pods Manifest.lock */,
+				ACEE36732BE77BFE00E51129 /* Sources */,
+				ACEE36742BE77BFE00E51129 /* Frameworks */,
+				ACEE36752BE77BFE00E51129 /* Resources */,
+				F6CDE72A9AC4FD9D2E740091 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSRE_Example_Child;
+			productName = DSRE_Example_Child;
+			productReference = ACEE36772BE77BFE00E51129 /* DSRE_Example_Child.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+					};
+					ACEE36762BE77BFE00E51129 = {
+						CreatedOnToolsVersion = 15.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -181,6 +315,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* DSRE_Example */,
+				ACEE36762BE77BFE00E51129 /* DSRE_Example_Child */,
 			);
 		};
 /* End PBXProject section */
@@ -190,10 +325,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEE36662BE738BA00E51129 /* OTPViewController.xib in Resources */,
+				ACEE36622BE72D6500E51129 /* LoginViewController.xib in Resources */,
+				ACEE36952BE77FA600E51129 /* ToastView.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				AC1732542BBE97C400093534 /* TestViewController.xib in Resources */,
+				ACED4B002BF9E8AD003F44FD /* HomeViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEE36752BE77BFE00E51129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEE368E2BE77CB500E51129 /* LoginViewController.xib in Resources */,
+				ACEE36862BE77C0000E51129 /* LaunchScreen.storyboard in Resources */,
+				ACEE36832BE77C0000E51129 /* Assets.xcassets in Resources */,
+				ACEE36812BE77BFE00E51129 /* Main.storyboard in Resources */,
+				ACEE36932BE77F9100E51129 /* ToastView.xib in Resources */,
+				ACED4B042BF9E95B003F44FD /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,15 +360,45 @@
 				"${PODS_ROOT}/Target Support Files/Pods-DSRE_Example/Pods-DSRE_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DSRE/DSRE.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DSRE.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSRE_Example/Pods-DSRE_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5DDD20D6C73AC8ADE39CF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSRE_Example_Child-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8C5FD641DE792D2A4076395F /* [CP] Check Pods Manifest.lock */ = {
@@ -242,6 +423,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F6CDE72A9AC4FD9D2E740091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSRE_Example_Child/Pods-DSRE_Example_Child-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DSRE/DSRE.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DSRE.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSRE_Example_Child/Pods-DSRE_Example_Child-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -249,8 +458,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1732532BBE97C400093534 /* TestViewController.swift in Sources */,
+				ACEE36652BE738BA00E51129 /* OTPViewController.swift in Sources */,
+				ACEE36612BE72D6500E51129 /* LoginViewController.swift in Sources */,
+				ACEE36982BE7820900E51129 /* NibLoadable.swift in Sources */,
+				ACEE366A2BE73C8E00E51129 /* StringExtension.swift in Sources */,
+				ACEE36942BE77F9A00E51129 /* ToastView.swift in Sources */,
+				ACED4AFF2BF9E8AD003F44FD /* HomeViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEE36732BE77BFE00E51129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEE36922BE77F9100E51129 /* ToastView.swift in Sources */,
+				ACEE368D2BE77CB500E51129 /* LoginViewController.swift in Sources */,
+				ACEE367E2BE77BFE00E51129 /* ViewController.swift in Sources */,
+				ACEE36992BE7820C00E51129 /* NibLoadable.swift in Sources */,
+				ACEE367A2BE77BFE00E51129 /* AppDelegate.swift in Sources */,
+				ACED4B022BF9E94A003F44FD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +498,22 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ACEE367F2BE77BFE00E51129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEE36802BE77BFE00E51129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACEE36842BE77C0000E51129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEE36852BE77C0000E51129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -370,7 +613,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -380,11 +624,15 @@
 			baseConfigurationReference = 69170121F703AB26A4CF6147 /* Pods-DSRE_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62XLCJ22EV;
 				INFOPLIST_FILE = DSRE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnpt.DSRE.Master;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -396,14 +644,109 @@
 			baseConfigurationReference = A43CCA059150EBDDA5352FF1 /* Pods-DSRE_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62XLCJ22EV;
 				INFOPLIST_FILE = DSRE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnpt.DSRE.Master;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		ACEE36882BE77C0000E51129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9C8CD714081FBF4D31342D /* Pods-DSRE_Example_Child.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 62XLCJ22EV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DSRE_Example_Child/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnpt.DSRE.Child;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACEE36892BE77C0000E51129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84BDC84226F053DAE71176C /* Pods-DSRE_Example_Child.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XLCJ22EV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DSRE_Example_Child/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnpt.DSRE.Child;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -424,6 +767,15 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEE368A2BE77C0000E51129 /* Build configuration list for PBXNativeTarget "DSRE_Example_Child" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEE36882BE77C0000E51129 /* Debug */,
+				ACEE36892BE77C0000E51129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
