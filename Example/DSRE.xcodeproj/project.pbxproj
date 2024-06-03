@@ -13,12 +13,12 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		A6463DAB0FD0EF5667866531 /* Pods_DSRE_Example_Child.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B922C7A066BA41DDF0B9ABC6 /* Pods_DSRE_Example_Child.framework */; };
+		ACE5C7792BFC3B1700829E02 /* CleverTapSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE5C7772BFC3B1200829E02 /* CleverTapSDK.xcframework */; };
+		ACE5C77A2BFC3B1700829E02 /* CleverTapSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACE5C7772BFC3B1200829E02 /* CleverTapSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ACED4AFF2BF9E8AD003F44FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED4AFD2BF9E8AD003F44FD /* HomeViewController.swift */; };
 		ACED4B002BF9E8AD003F44FD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACED4AFE2BF9E8AD003F44FD /* HomeViewController.xib */; };
 		ACED4B022BF9E94A003F44FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED4B012BF9E94A003F44FD /* HomeViewController.swift */; };
 		ACED4B042BF9E95B003F44FD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACED4B032BF9E95B003F44FD /* HomeViewController.xib */; };
-		ACED4B092BF9F425003F44FD /* CleverTapSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACED4B062BF9F3FB003F44FD /* CleverTapSDK.xcframework */; };
-		ACED4B0A2BF9F425003F44FD /* CleverTapSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACED4B062BF9F3FB003F44FD /* CleverTapSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ACEE36612BE72D6500E51129 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE365F2BE72D6500E51129 /* LoginViewController.swift */; };
 		ACEE36622BE72D6500E51129 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEE36602BE72D6500E51129 /* LoginViewController.xib */; };
 		ACEE36652BE738BA00E51129 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE36632BE738BA00E51129 /* OTPViewController.swift */; };
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ACED4B0A2BF9F425003F44FD /* CleverTapSDK.xcframework in Embed Frameworks */,
+				ACE5C77A2BFC3B1700829E02 /* CleverTapSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,11 +66,12 @@
 		835374DE9880FDD94FB3A8A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A43CCA059150EBDDA5352FF1 /* Pods-DSRE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Example.release.xcconfig"; path = "Target Support Files/Pods-DSRE_Example/Pods-DSRE_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A84BDC84226F053DAE71176C /* Pods-DSRE_Example_Child.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSRE_Example_Child.release.xcconfig"; path = "Target Support Files/Pods-DSRE_Example_Child/Pods-DSRE_Example_Child.release.xcconfig"; sourceTree = "<group>"; };
+		ACA37E072BFC4063005C45F1 /* DSRE_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSRE_Example.entitlements; sourceTree = "<group>"; };
+		ACE5C7772BFC3B1200829E02 /* CleverTapSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CleverTapSDK.xcframework; sourceTree = "<group>"; };
 		ACED4AFD2BF9E8AD003F44FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ACED4AFE2BF9E8AD003F44FD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		ACED4B012BF9E94A003F44FD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = DSRE_Example_Child/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		ACED4B032BF9E95B003F44FD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = DSRE_Example_Child/HomeViewController.xib; sourceTree = SOURCE_ROOT; };
-		ACED4B062BF9F3FB003F44FD /* CleverTapSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CleverTapSDK.xcframework; sourceTree = "<group>"; };
 		ACEE365F2BE72D6500E51129 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ACEE36602BE72D6500E51129 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		ACEE36632BE738BA00E51129 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4415D65E4B494D6F0EC5EF21 /* Pods_DSRE_Example.framework in Frameworks */,
-				ACED4B092BF9F425003F44FD /* CleverTapSDK.xcframework in Frameworks */,
+				ACE5C7792BFC3B1700829E02 /* CleverTapSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +129,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				ACA37E072BFC4063005C45F1 /* DSRE_Example.entitlements */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DSRE */,
 				ACEE36782BE77BFE00E51129 /* DSRE_Example_Child */,
@@ -190,7 +192,7 @@
 		ACED4B052BF9F3FB003F44FD /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				ACED4B062BF9F3FB003F44FD /* CleverTapSDK.xcframework */,
+				ACE5C7772BFC3B1200829E02 /* CleverTapSDK.xcframework */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -362,6 +364,8 @@
 				"${BUILT_PRODUCTS_DIR}/DSRE/DSRE.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
@@ -371,6 +375,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DSRE.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
@@ -434,6 +440,7 @@
 				"${BUILT_PRODUCTS_DIR}/DSRE/DSRE.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
@@ -443,6 +450,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DSRE.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
@@ -624,6 +632,7 @@
 			baseConfigurationReference = 69170121F703AB26A4CF6147 /* Pods-DSRE_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DSRE_Example.entitlements;
 				DEVELOPMENT_TEAM = 62XLCJ22EV;
 				INFOPLIST_FILE = DSRE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -644,6 +653,7 @@
 			baseConfigurationReference = A43CCA059150EBDDA5352FF1 /* Pods-DSRE_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DSRE_Example.entitlements;
 				DEVELOPMENT_TEAM = 62XLCJ22EV;
 				INFOPLIST_FILE = DSRE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -688,7 +698,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -734,7 +744,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

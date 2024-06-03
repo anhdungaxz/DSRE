@@ -8,6 +8,7 @@
 
 import UIKit
 import DSRE
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
@@ -41,11 +42,14 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func actionLogin(_ sender: Any) {
+        SVProgressHUD.show()
         DSRE.share.fetchOtp(msisdn: tfPhone.text ?? "") { responseCode, otpID, otp in
+            SVProgressHUD.dismiss()
             if responseCode.code == 0 {
                 ToastView.showToast(type: .success, message: "OTP: " + (otp ?? ""))
                 let vc = OTPViewController()
                 vc.otpId = otpID
+                vc.msisdn = self.tfPhone.text ?? ""
                 self.navigationController?.pushViewController(vc)
             } else {
                 ToastView.showToast(type: .error, message: responseCode.message ?? "")
@@ -54,13 +58,15 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func actionLogin4g(_ sender: Any) {
+        SVProgressHUD.show()
         DSRE.share.loginViaCellular { responseCode, authen in
+            SVProgressHUD.dismiss()
             if responseCode.code == 0 {
         let phone = authen?.msisdn
                 AppDelegate.shared.loginPhone = phone
                 let vc = HomeViewController()
                 vc.loginPhone = phone
-        vc.isloginChild = true
+        vc.isloginChild = false
                 self.navigationController?.pushViewController(vc)
                 
             } else {

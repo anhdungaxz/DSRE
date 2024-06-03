@@ -11,7 +11,7 @@ import Reachability
 
 public class DSRE {
     
-    private let domainDSRE = "http://10.144.39.154:8899/"
+    private let domainDSRE = "http://dp24.vnptvas.vn/"
     
     public static let share = DSRE()
     
@@ -32,7 +32,7 @@ public class DSRE {
     private func getCPInfo() {
         let url = domainDSRE + "cpInfo"
         DSRENetwork.post(url: url, parameters: nil, header: getDefaultHeader()) { (response: AFDataResponse<DSRE_DataResponse<DSRE_CPModel>>) in
-            switch response.result{
+            switch response.result {
             case .failure(let error):
                 print("DSRE getCPInfo fail")
                 
@@ -46,6 +46,22 @@ public class DSRE {
     
     public func fetchOtp(msisdn: String, completion: @escaping((_ responseCode: DSREResponse, _ otpID: String?, _ otp: String?) -> Void)) {
         let url = domainDSRE + "sendOtp"
+        let param = ["msisdn": msisdn.dsreConvert0to84]
+        DSRENetwork.post(url: url, parameters: param, header: getDefaultHeader()) { (response: AFDataResponse<DSRE_DataResponse<String>>) in
+            switch response.result{
+            case .failure(let error):
+                completion(DSREResponse(code: -1, message: error.localizedDescription), nil, nil)
+                print("DSRE sendOtp fail")
+                break
+            case .success(let value):
+                completion(DSREResponse(code: value.statusCode ?? -1, message: value.message), value.requestId, value.data)
+                break
+            }
+        }
+    }
+    
+    public func resendOtp(msisdn: String, completion: @escaping((_ responseCode: DSREResponse, _ otpID: String?, _ otp: String?) -> Void)) {
+        let url = domainDSRE + "resendOtp"
         let param = ["msisdn": msisdn.dsreConvert0to84]
         DSRENetwork.post(url: url, parameters: param, header: getDefaultHeader()) { (response: AFDataResponse<DSRE_DataResponse<String>>) in
             switch response.result{
@@ -127,7 +143,7 @@ public class DSRE {
     }
     
     private func getDefaultHeader() -> [String: String] {
-        return ["api_key": apiKey ?? "", "client_id": clientId ?? ""];
+        return ["api_key": apiKey ?? "", "client_id": clientId ?? "", "type": "ios"];
     }
     
 }

@@ -5,7 +5,13 @@ PODS:
     - ReachabilitySwift
   - IQKeyboardManagerSwift (6.5.11)
   - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.19.1):
+    - SDWebImage/Core (= 5.19.1)
+  - SDWebImage/Core (5.19.1)
   - SnapKit (5.6.0)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
   - SwifterSwift/UIKit (5.2.0)
 
 DEPENDENCIES:
@@ -13,7 +19,9 @@ DEPENDENCIES:
   - DSRE (from `../`)
   - IQKeyboardManagerSwift
   - ReachabilitySwift
+  - SDWebImage
   - SnapKit
+  - SVProgressHUD
   - SwifterSwift/UIKit
 
 SPEC REPOS:
@@ -21,7 +29,9 @@ SPEC REPOS:
     - Alamofire
     - IQKeyboardManagerSwift
     - ReachabilitySwift
+    - SDWebImage
     - SnapKit
+    - SVProgressHUD
     - SwifterSwift
 
 EXTERNAL SOURCES:
@@ -33,9 +43,11 @@ SPEC CHECKSUMS:
   DSRE: 52a8366d0d3d145f7bfbe21113fcfb6a80dece7e
   IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
 
-PODFILE CHECKSUM: 4964d8396a0a2cda29aebdc55d2baa3e3ffe4954
+PODFILE CHECKSUM: 077a0627a1064b022e6dac526454670cb716e867
 
 COCOAPODS: 1.15.2

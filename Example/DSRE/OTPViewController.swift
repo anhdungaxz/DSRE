@@ -8,6 +8,7 @@
 
 import UIKit
 import DSRE
+import SVProgressHUD
 
 class OTPViewController: UIViewController {
 
@@ -17,6 +18,7 @@ class OTPViewController: UIViewController {
     @IBOutlet weak var stackOTP: UIStackView!
     
     var otpId: String?
+    var msisdn: String?
     var isLoginChild: Bool = false
     
     override func viewDidLoad() {
@@ -57,15 +59,36 @@ class OTPViewController: UIViewController {
         }
     }
     
+    @IBAction func actionResendOTP(_ sender: Any) {
+        SVProgressHUD.show()
+        DSRE.share.resendOtp(msisdn: msisdn ?? "") { responseCode, otpID, otp in
+            SVProgressHUD.dismiss()
+            if responseCode.code == 0 {
+                ToastView.showToast(type: .success, message: "OTP: " + (otp ?? ""))
+                self.otpId = otpID
+            } else if (responseCode.code == 110){
+                self.navigationController?.popViewController()
+                ToastView.showToast(type: .error, message: responseCode.message ?? "")
+            } else {
+                ToastView.showToast(type: .error, message: responseCode.message ?? "")
+            }
+        }
+    }
+    
     @IBAction func actionConfirm(_ sender: Any) {
+        SVProgressHUD.show()
         DSRE.share.verifyOtp(otpId: otpId ?? "", otp: tfOtp.text ?? "") { responseCode, authen in
+            SVProgressHUD.dismiss()
             if responseCode.code == 0 {
                 AppDelegate.shared.loginPhone = authen?.msisdn
                 let vc = HomeViewController()
                 vc.loginPhone = authen?.msisdn
-                vc.isloginChild = true
+                vc.isloginChild = false
                 self.navigationController?.pushViewController(vc)
                 
+            } else if (responseCode.code == 106){
+                self.navigationController?.popViewController()
+                ToastView.showToast(type: .error, message: responseCode.message ?? "")
             } else {
                 ToastView.showToast(type: .error, message: responseCode.message ?? "")
             }
